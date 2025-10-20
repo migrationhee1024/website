@@ -279,14 +279,46 @@ h2 strong {
 
 #contanier01 {
     width: 552px;
-    height: fit-content;
+    height: 900px;
     border: 1px solid rgb(0, 0, 0);
     margin-top: -117px;
-    padding: 0px 80px 210px 100px;
     text-align: center;
     font-family: "pretendard";
 }
 
+#contanier01 h3 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
 .txt01 p {
     margin-top: 32px;
+}
+
+#content01 {
+    margin-top: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+.txt02 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.txt02 ul {
+    text-decoration: none;
+    list-style: none;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.txt02 li {
+    font-family: "pretendard";
+    font-size: 20px;
 }
