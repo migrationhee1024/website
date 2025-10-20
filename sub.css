@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff') format('woff');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff') format('woff');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Black.woff') format('woff');
+    font-weight: 900;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width:100%;
+    display: flex;
+    position: relative;
+    height: fit-content;
+}
+
+section {
+    width:100%;
+    /* border: 1px solid red; */
+    position: relative;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.button01:hover {
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    font-family: "Archivo", sans-serif;
+    font-size: 96px;
+    font-variation-settings: 'wght' 400, 'wdth' 1250;
+}
+
+h2 {
+    font-family: "Archivo", sans-serif;
+    font-size: 64px;
+    font-variation-settings: 'wght' 400, 'wdth' 1250;
+}
+
+h3 {
+    font-family: "Archivo", sans-serif;
+    font-size: 48px;
+    font-variation-settings: 'wght' 400, 'wdth' 1250;
+}
+
+h4 {
+    font-family: "Archivo", sans-serif;
+    font-size: 36px;
+    font-variation-settings: 'wght' 400, 'wdth' 1250;
+}
+
+p {
+    font-family: "Archivo", sans-serif;
+    font-size: 32px;
+    font-variation-settings: 'wght' 400, 'wdth' 1250;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    padding:10px 20px;
+}
+
+.title img {
+    margin-top : 12px;
+}
+
+#containerbox {
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid rgb(0, 0, 0);
+    margin: auto;
+    flex-direction: column;
+}
+
+#s01{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1328px;
+    height: fit-content;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 16px;
+}
+
+
+#txtbox01 {
+    display :flex;
+    flex-direction: row;
+    /* border: 1px solid rgb(255, 0, 0); */
+    width: fit-content;
+    gap : 18px;
+}
+
+.btn01 {
+    border: 1px solid rgb(0, 0, 0);
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    padding:10px 20px 10px 20px;
+    border-radius: 90px;
+    color: black;
+    margin-top:16px;
+    transition: all 0.3s ease-out;
+    background-image: url(/img/Arrow\ 2.svg);
+    background-repeat: no-repeat;
+    background-position: 360px;
+}
+
+.btn01:hover
+{
+    background-image: url(/img/Arrow\ 2_white.svg);
+    color: white;
+    background-color: black;
+    padding:10px 50px 10px 40px;
+}
+
+#btnbox
+{
+    display: flex;
+    flex-direction: row;
+    gap : 24px;
+    margin-bottom: 20px;
+}
+
+#btnbox .btn01 {
+    padding:10px 20px 10px 20px;
+}
+
+.btn01 span {
+    display:flex;
+    flex-direction: row;
+}
+
+.arrow {
+    position: relative;
+    background-image: url(/img/Arrow\ 2.svg);
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    margin-left: 6px;
+    margin-top: -2px;
+}
+
+#btnbox .btn01:hover .arrow {
+    background-image: url(/img/Arrow\ 2_white.svg);
+}
+
+#s02 {
+     /* border: 1px solid rgb(255, 0, 0); */
+     width: 1880px;
+}
+
+#txtbox2 {
+    position: relative;
+    border: 1px solid rgb(0, 0, 0);
+    width: 1328px;
+    padding: 48px 0px 10px 24px;
+}
+
+#txtbox2 h2 {
+    font-size: 56px;
+    font-variation-settings: 'wght' 100, 'wdth' 1250;
+}
+
+#txtbox2 b {
+    font-variation-settings: 'wght' 500, 'wdth' 1250;
+}
+
+.tinytxt {
+   font-size: 32px;
+   margin-left: 10px;
+}
+
+#txtbox3 {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 40px 0px;
+    
+}
+
+#txtbox3 span {
+    font-family: "Archivo", sans-serif;
+    font-size: 64px;
+    font-variation-settings: 'wght' 100, 'wdth' 1250;
+}
+
+#txtbox3 span {
+    font-family: "Archivo", sans-serif;
+    font-size: 64px;
+    font-variation-settings: 'wght' 100, 'wdth' 1250;
+}
+
+h2 strong {
+    text-decoration: underline;
+    font-family: "Archivo", sans-serif;
+    font-variation-settings: 'wght' 400, 'wdth' 1250;
+    cursor: pointer;
+}
+
