@@ -209,6 +209,7 @@ h2 strong {
     font-family: "Archivo", sans-serif;
     font-variation-settings: 'wght' 400, 'wdth' 1250;
     cursor: pointer;
+    background-color: blanchedalmond;
 }
 
 .arrow {
@@ -256,7 +257,7 @@ h2 strong {
     display: flex;
     flex-direction: column;
     width: fit-content;
-    margin: 40px 0px;
+    margin-top: 80px;
     
 }
 
@@ -279,7 +280,7 @@ h2 strong {
 
 #contanier01 {
     width: 552px;
-    height: 900px;
+    height: fit-content;
     border: 1px solid rgb(0, 0, 0);
     margin-top: -117px;
     text-align: center;
@@ -287,33 +288,32 @@ h2 strong {
 }
 
 #contanier01 h3 {
-    margin-top: 32px;
-    margin-bottom: 32px;
+    margin-top: 24px;
 }
 
 .txt01 p {
-    margin-top: 32px;
+    margin-top: 24px;
 }
 
 #content01 {
-    margin-top: 20px;
     text-align: left;
     display: flex;
     flex-direction: column;
     margin-left: 80px;
+    margin-top: 32px;
 }
 
 .txt02 {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    margin-top: 20px;
+    margin: 24px 0px;
 }
 
 .txt02 ul {
     text-decoration: none;
     list-style: none;
-    gap: 8px;
+    gap: 4px;
     display: flex;
     flex-direction: column;
 }
