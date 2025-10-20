@@ -174,14 +174,14 @@ p {
     color: black;
     margin-top:16px;
     transition: all 0.3s ease-out;
-    background-image: url(/img/Arrow\ 2.svg);
+    background-image: url(img/Arrow\ 2.svg);
     background-repeat: no-repeat;
     background-position: 360px;
 }
 
 .btn01:hover
 {
-    background-image: url(/img/Arrow\ 2_white.svg);
+    background-image: url(img/Arrow\ 2_white.svg);
     color: white;
     background-color: black;
     padding:10px 50px 10px 40px;
@@ -206,7 +206,7 @@ p {
 
 .arrow {
     position: relative;
-    background-image: url(/img/Arrow\ 2.svg);
+    background-image: url(img/Arrow\ 2.svg);
     width: 40px;
     height: 40px;
     background-repeat: no-repeat;
@@ -216,7 +216,7 @@ p {
 }
 
 #btnbox .btn01:hover .arrow {
-    background-image: url(/img/Arrow\ 2_white.svg);
+    background-image: url(img/Arrow\ 2_white.svg);
 }
 
 #s02 {
