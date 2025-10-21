@@ -321,3 +321,43 @@ h2 strong {
     font-family: "pretendard";
     font-size: 20px;
 }
+
+/* about css */
+
+.swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+
+.slidecont {
+    display:block;
+    width: fit-content;
+    height: 606px;
+    border: 2px solid rgb(0, 0, 0);
+    position: relative;
+    padding : 20px;
+}
+
+.swiper-slide {
+    margin-top: 80px;
+    height:fit-content;
+    padding-left:20px;
+}
+
+.slidecont h4 {
+    margin-bottom: 32px;
+}
+
+.slideimg {
+    display: flex;
+    width: fit-content;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.slideimg img {
+    width:fit-content;
+    padding:40px;
+    margin:auto;
+}
+

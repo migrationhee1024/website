@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sub.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>WORKS</title>
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1>WORKS</h1>
+            <img src="img/Arrow 1.svg" alt="">
+        </div>
+    </header>
+
+    <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+            <div class="slidecont">
+                <h4>PROJECT 01</h4>
+                <div class="slideimg"><img src="img/cont01.png" alt=""></div>
+                <div>
+                    <div class="txtbox4">
+                        <h3>HEMUL STUDIO</h3>
+                        <p>DATE / 2025</p>
+                    </div>
+                    <div id="btnbox02">
+                            <a href="/index.html">
+                                <div class="btn01">
+                                    <span><p>WEBSITE</p><div class="arrow"></div></span>
+                                </div>
+                            </a>
+                            <a href="/index.html">
+                                <div class="btn01">
+                                    <span><p>CHARACTOR</p><div class="arrow"></div></span>
+                                </div>
+                            </a>
+                    </div>
+                </div>
+            </div>
+      </div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 2</div>
+    </div>
+    <!-- <div class="swiper-scrollbar"></div> -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+
+
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 4,
+      spaceBetween: 40,
+      mousewheel: true,
+       pagination: {
+        el: ".swiper-pagination",
+        type: "progressbar",
+      }
+    });
+  </script>
+</body>
+</html>
