@@ -70,6 +70,11 @@
     box-sizing: border-box;
 }
 
+:root {
+    --swiper-theme-color: #000000 !important;
+}
+
+
 header {
     width:100%;
     display: flex;
@@ -324,25 +329,22 @@ h2 strong {
 
 /* about css */
 
-.swiper {
-      width: 100%;
-      height: 100%;
-    }
-
 
 .slidecont {
     display:block;
     width: fit-content;
     height: 606px;
     border: 2px solid rgb(0, 0, 0);
-    position: relative;
-    padding : 20px;
+    padding: 20px;
+    border-radius: 0px 0px 60px 0px;
 }
 
 .swiper-slide {
     margin-top: 80px;
     height:fit-content;
-    padding-left:20px;
+    width: fit-content !important;
+    /* border: 2px solid rgb(0, 0, 0); */
+    margin-left: 20px;
 }
 
 .slidecont h4 {
@@ -361,3 +363,63 @@ h2 strong {
     margin:auto;
 }
 
+.txtbox4 {
+    margin-top: 20px;
+    gap: 8px;
+}
+
+.swiper-pagination{
+  --swiper-pagination-color: var(#000) !important;
+  --swiper-pagination-left: auto;
+  --swiper-pagination-right: 8px;
+  --swiper-pagination-bottom: 8px;
+  --swiper-pagination-top: auto;
+  --swiper-pagination-fraction-color: inherit;
+  --swiper-pagination-progressbar-bg-color: rgba(0, 0, 0, 0.1) !important;
+  --swiper-pagination-progressbar-size: 5px !important;
+}
+
+#btnbox2 {
+    display: flex;
+    flex-direction: row;
+    gap : 10px;
+    cursor: none;
+    margin-top: 50px;
+}
+
+#btnbox2 a {
+    cursor: pointer;
+}
+
+#btnbox2 .btn01 {
+    width: 100%;
+}
+
+#btnbox2 .btn01 p {
+  font-size: 20px;
+}
+
+.btn02 {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    margin-left : 130px;
+    border-radius: 200px;
+    transition: all 0.3s ease-out;
+    margin-top: 4px;
+
+}
+
+.arrowbtn {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 200px;
+    padding: 10px 10px 10px 0px;
+}
+
+.btn02:hover {
+    background-color: #000;
+}
+
+.btn02:hover .arrow {
+    background-image: url(img/Arrow\ 2_white.svg);
+}
