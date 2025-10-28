@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+@media (max-width: 767px){
+	/* 모바일 */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* // 테블릿 세로 */
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* // 테블릿 가로 */
+}
+
+@media (min-width: 1200px) {
+    /* // 데스크탑 일반 */
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width:100%;
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+header {
+    width:100%;
+    padding : 5px 20px;
+    display: flex;
+    justify-content:space-between;
+    position: relative;
+}
+
+h1 {
+    font-family: "Archivo", sans-serif;
+    font-size: 96px;
+    font-variation-settings: 'wght' 400, 'wdth' 1250;
+}
+
+h2 {
+    font-family: "Archivo", sans-serif;
+    font-size: 64px;
+    font-variation-settings: 'wght' 400, 'wdth' 1250;
+}
+
+h3 {
+    font-family: "Archivo", sans-serif;
+    font-size: 48px;
+    font-variation-settings: 'wght' 400, 'wdth' 125;
+}
+
+.weblink {
+    display: flex;
+    flex-direction: row;
+    padding-top: 140px;
+    font-family: "Archivo", sans-serif;
+    font-variation-settings: 'wght' 400, 'wdth' 125;
+}
+
+.weblink a {
+    font-family: "Archivo", sans-serif;
+    font-variation-settings: 'wght' 400, 'wdth' 125;
+    font-size: 40px;
+    display: flex;
+    width: 613px;
+    height:fit-content;
+    background-color: black;
+    text-decoration-line: none;
+    color: white;
+    justify-content: space-around;
+    padding: 8px 0px;
+}
+
+#title01 h2 {
+    margin-top: 20px;
+}
+
+#main {
+    position: relative;
+    width: 100%;
+}
+
+#main ul {
+    margin-left:20px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: white;
+    transition: all 0.3s ease-out;
+}
+
+#main li {
+    display:block;
+    width:100%;
+    border: 2px solid rgb(0, 0, 0);
+    height: fit-content;
+    padding-bottom: 20px;
+}
+
+#main a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    transition: all 0.3s ease-out;
+}
+
+#main h2 {
+    padding : 2px 48px 0px 48px;
+}
+
+.title02 {
+    padding-left: 252px;
+}
+
+#main p {
+    font-family: "Archivo", sans-serif;
+    font-variation-settings: 'wght' 400, 'wdth' 125;
+    font-size: 36px;
+}
+
+#main a:hover {
+    color : white;
+    background-color: black;
+}

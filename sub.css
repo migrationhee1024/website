@@ -1,0 +1,601 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff') format('woff');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff') format('woff');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Black.woff') format('woff');
+    font-weight: 900;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --swiper-theme-color: #000000 !important;
+}
+
+
+header {
+    width:100%;
+    display: flex;
+    position: relative;
+    height: fit-content;
+}
+
+section {
+    width:100%;
+    /* border: 1px solid red; */
+    position: relative;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.button01:hover {
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    font-family: "Archivo", sans-serif;
+    font-size: 96px;
+    font-variation-settings: 'wght' 400, 'wdth' 1250;
+}
+
+h2 {
+    font-family: "Archivo", sans-serif;
+    font-size: 64px;
+    font-variation-settings: 'wght' 400, 'wdth' 1250;
+}
+
+h3 {
+    font-family: "Archivo", sans-serif;
+    font-size: 48px;
+    font-variation-settings: 'wght' 400, 'wdth' 1250;
+}
+
+h4 {
+    font-family: "Archivo", sans-serif;
+    font-size: 36px;
+    font-variation-settings: 'wght' 400, 'wdth' 1250;
+}
+
+p {
+    font-family: "Archivo", sans-serif;
+    font-size: 32px;
+    font-variation-settings: 'wght' 400, 'wdth' 1250;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    padding:10px 20px;
+}
+
+.title img {
+    margin-top : 12px;
+}
+
+#containerbox {
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid rgb(0, 0, 0);
+    margin: auto;
+    flex-direction: column;
+}
+
+#s01{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1328px;
+    height: fit-content;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 16px;
+}
+
+
+#txtbox01 {
+    display :flex;
+    flex-direction: row;
+    /* border: 1px solid rgb(255, 0, 0); */
+    width: fit-content;
+    gap : 18px;
+}
+
+.btn01 {
+    border: 1px solid rgb(0, 0, 0);
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    padding:10px 20px 10px 20px;
+    border-radius: 90px;
+    color: black;
+    margin-top:16px;
+    transition: all 0.3s ease-out;
+    background-image: url(img/Arrow\ 2.svg);
+    background-repeat: no-repeat;
+    background-position: 360px;
+}
+
+.btn01:hover
+{
+    background-image: url(img/Arrow\ 2_white.svg);
+    color: white;
+    background-color: black;
+    padding:10px 50px 10px 40px;
+}
+
+#btnbox
+{
+    display: flex;
+    flex-direction: row;
+    gap : 24px;
+    margin-bottom: 20px;
+}
+
+#btnbox .btn01 {
+    padding:10px 20px 10px 20px;
+}
+
+.btn01 span {
+    display:flex;
+    flex-direction: row;
+}
+
+h2 strong {
+    text-decoration: underline;
+    font-family: "Archivo", sans-serif;
+    font-variation-settings: 'wght' 400, 'wdth' 1250;
+    cursor: pointer;
+}
+
+.arrow {
+    position: relative;
+    background-image: url(img/Arrow\ 2.svg);
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    margin-left: 6px;
+    margin-top: -2px;
+}
+
+#btnbox .btn01:hover .arrow {
+    background-image: url(img/Arrow\ 2_white.svg);
+}
+
+#s02 {
+     /* border: 1px solid rgb(255, 0, 0); */
+     width: 1880px;
+}
+
+#txtbox2 {
+    position: relative;
+    border: 1px solid rgb(0, 0, 0);
+    width: 1328px;
+    padding: 48px 0px 10px 24px;
+}
+
+#txtbox2 h2 {
+    font-size: 56px;
+    font-variation-settings: 'wght' 100, 'wdth' 1250;
+}
+
+#txtbox2 b {
+    font-variation-settings: 'wght' 500, 'wdth' 1250;
+}
+
+.tinytxt {
+   font-size: 32px;
+   margin-left: 10px;
+}
+
+#txtbox3 {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-top: 80px;
+    
+}
+
+#txtbox3 span {
+    font-family: "Archivo", sans-serif;
+    font-size: 64px;
+    font-variation-settings: 'wght' 100, 'wdth' 1250;
+}
+
+#txtbox3 strong {
+    font-family: "Archivo", sans-serif;
+    font-size: 64px;
+    font-variation-settings: 'wght' 100, 'wdth' 1250;
+    background-image: url(img/eyes.svg);
+    background-repeat: no-repeat;
+    background-position: 940px;
+    background-size: 70px;
+    width: 1056px;
+}
+
+#contanier01 {
+    width: 552px;
+    height: fit-content;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: -117px;
+    text-align: center;
+    font-family: "pretendard";
+}
+
+#contanier01 h3 {
+    margin-top: 24px;
+}
+
+.txt01 p {
+    margin-top: 24px;
+}
+
+#content01 {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: 32px;
+}
+
+.txt02 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 24px 0px;
+}
+
+.txt02 ul {
+    text-decoration: none;
+    list-style: none;
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.txt02 li {
+    font-family: "pretendard";
+    font-size: 20px;
+}
+
+
+/* works css */
+
+
+.slidecont {
+    display:block;
+    width: fit-content;
+    height: 606px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 0px 0px 60px 0px;
+}
+
+.swiper-slide {
+    margin-top: 80px;
+    height:fit-content;
+    width: fit-content !important;
+    /* border: 2px solid rgb(0, 0, 0); */
+    margin-left: 20px;
+}
+
+.slidecont h4 {
+    margin-bottom: 24px;
+}
+
+.slideimg {
+    display: flex;
+    width: fit-content;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.slideimg img {
+    width: 100%;
+    /* padding: 5px; */
+    margin:auto;
+}
+
+.txtbox4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.swiper-pagination{
+  --swiper-pagination-color: var(#000) !important;
+  --swiper-pagination-left: auto;
+  --swiper-pagination-right: 8px;
+  --swiper-pagination-bottom: 8px;
+  --swiper-pagination-top: auto;
+  --swiper-pagination-fraction-color: inherit;
+  --swiper-pagination-progressbar-bg-color: rgba(0, 0, 0, 0.1) !important;
+  --swiper-pagination-progressbar-size: 5px;
+}
+
+#btnbox2 {
+    display: flex;
+    flex-direction: row;
+    gap : 10px;
+    cursor: none;
+    margin-top: 30px;
+}
+
+#btnbox2 a {
+    cursor: pointer;
+}
+
+#btnbox2 .btn01 {
+    width: 100%;
+}
+
+#btnbox2 .btn01 p {
+  font-size: 20px;
+}
+
+.btn02 {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    margin-left : 160px;
+    border-radius: 200px;
+    transition: all 0.3s ease-out;
+    margin-top: 4px;
+
+}
+
+.arrowbtn {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 200px;
+    padding: 10px 10px 10px 0px;
+}
+
+.btn02:hover {
+    background-color: #000;
+}
+
+.btn02:hover .arrow {
+    background-image: url(img/Arrow\ 2_white.svg);
+}
+
+/* contact css */
+
+/* ==========================
+   ABOUT : Cartoon Pop Hover ver.
+   ========================== */
+#s02 #txtbox2 h2 strong {
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+  transition: transform 0.15s ease;
+}
+
+#s02 #txtbox2 h2 strong:hover {
+  transform: scale(1.08) rotate(-2deg); /* 텍스트도 살짝 튐 */
+}
+
+/* ::after - hover 시 뜨는 이미지 */
+#s02 #txtbox2 h2 strong::after {
+  content: "";
+  position: absolute;
+  top: -160px; /* 텍스트 위쪽 */
+  left: 20%;
+  transform: translateX(-50%) scale(0) rotate(-10deg);
+  width: 220px;
+  height: 150px;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 4px solid #fff; /* 흰 테두리로 카툰 느낌 */
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+  filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.2));
+  opacity: 0;
+  pointer-events: none;
+  z-index: 5;
+  animation: none;
+}
+
+/* hover 시 애니메이션 실행 */
+#s02 #txtbox2 h2 strong:hover::after {
+  opacity: 1;
+  animation: cartoonPop 0.55s cubic-bezier(0.25, 1.6, 0.4, 1) forwards;
+}
+
+/* ==========================
+   개별 이미지 지정
+   (CSS 기준 경로 맞춰 ../img/ 로!)
+   ========================== */
+#s02 #txtbox2 h2 strong.charactor::after {
+  background-image: url("../img/profile.png");
+}
+
+#s02 #txtbox2 h2 strong.animation::after {
+  background-image: url("../img/animation.jpg");
+}
+
+#s02 #txtbox2 h2 strong.icon::after {
+  background-image: url("../img/icon.jpg");
+}
+
+#s02 #txtbox2 h2 strong.website::after {
+  background-image: url("../img/website.jpg");
+}
+
+#s02 #txtbox2 h2 strong.threed::after {
+  background-image: url("../img/3d.jpg");
+}
+
+#s02 #txtbox2 h2 strong.drawing::after {
+  background-image: url("../img/drawing.jpg");
+}
+
+
+#container2 {
+    width: 1000px;
+    height:522px;
+    border: 2px #000 solid;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 24px;
+    margin-top: 60px;
+}
+
+#container2 img {
+    height: 118px;
+}
+
+#container2 .txtbox4 {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.btnbox3 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: auto;
+    gap: 12px;
+}
+
+.btnbox3 .btn01 {
+    padding: 8px 10px 8px 20px;
+}
+
+.btnbox3 .btn01:hover .arrow {
+    padding : 0px;
+    background-image: url(img/Arrow\ 2_white.svg);
+}
+
+.contactimg {
+    position: absolute;
+    margin: -320px 0px 0px 1380px ; 
+    
+}
+
+.contacttxt {
+    position: absolute;
+    width: fit-content;
+    background-color: #000;
+    color: white;
+    padding: 30px 40px;
+    margin: -40px 20px 0px 400px;
+    border-radius: 80px;
+}
+
+
+.hover-follow-img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 150px;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 4px solid #fff;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+  filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.25));
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0;
+  scale: 0.9;
+  transform-origin: center center;
+  transition:
+    opacity 0.25s ease-out,
+    scale 0.4s cubic-bezier(0.25, 1.6, 0.4, 1);
+}
+
+/* 💥 팡! 튀는 등장 애니메이션 */
+@keyframes cartoonPop {
+  0% {
+    transform: scale(0) rotate(-15deg);
+    opacity: 0;
+  }
+  35% {
+    transform: scale(1.3) rotate(8deg);
+    opacity: 1;
+  }
+  60% {
+    transform: scale(0.95) rotate(-3deg);
+  }
+  80% {
+    transform: scale(1.05) rotate(2deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+  }
+}
