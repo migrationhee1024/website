@@ -16,27 +16,73 @@
     <section id="container2">
         <div class="txtbox4">
             <h3>IF YOU WANT TO KNOW ME MORE</h3>
-            <h4>I’M WAITING FOR YOU :]</h4>
+            <h2>I’M WAITING FOR YOU :]</h2>
         </div>
         <img src="img/Arrow 3.svg" alt="" srcset="">
         <div class="btnbox3">
-            <a href="img/Arrow 2_white.svg" download>
+            <a href="mailto:mightationhee1024@gmail.com">
                 <div class="btn01">
-                    <p>RESUME DOWNLOD</p>
+                  <span><p>EMAIL</p><div class="arrow"></div></span>
                 </div>
             </a>
-            <a href="img/Arrow 2_white.svg" download>
+            <a href="/index.html">
                 <div class="btn01">
-                    <p>RESUME DOWNLOD</p>
+                  <span><p>PHONE</p><div class="arrow"></div></span>
                 </div>
             </a>
-            <a href="img/Arrow 2_white.svg" download>
+            <a href="/index.html">
                 <div class="btn01">
-                    <p>RESUME DOWNLOD</p>
+                  <span><p>LEE PLACE.COM</p><div class="arrow"></div></span>
                 </div>
             </a>
         </div>
-        <div class="contactimg"></div>
-        <div class="contacttxt"><p>CONTACT TO ME PLASE</p></div>
+        
     </section>
+    <div class="contactimg"><img src="img/eyes_big.png" alt=""></div>
+    <div class="contacttxt"><p>CONTACT TO ME PLASE</p></div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const box = document.getElementById("container2");
+  if (!box) return;
+
+  const moveIntensity = 25;
+  const rotateIntensity = 15;
+  const smoothness = 0.08;
+
+  let targetX = 0, targetY = 0;
+  let currentX = 0, currentY = 0;
+  let targetRotateX = 0, targetRotateY = 0;
+  let currentRotateX = 0, currentRotateY = 0;
+
+  document.addEventListener("mousemove", e => {
+    const centerX = window.innerWidth / 2;
+    const centerY = window.innerHeight / 2;
+    const dx = (e.clientX - centerX) / centerX;
+    const dy = (e.clientY - centerY) / centerY;
+
+    targetX = dx * moveIntensity;
+    targetY = dy * moveIntensity;
+    targetRotateX = dy * -rotateIntensity;
+    targetRotateY = dx * rotateIntensity;
+  });
+
+  function animate() {
+    currentX += (targetX - currentX) * smoothness;
+    currentY += (targetY - currentY) * smoothness;
+    currentRotateX += (targetRotateX - currentRotateX) * smoothness;
+    currentRotateY += (targetRotateY - currentRotateY) * smoothness;
+
+    box.style.transform = `
+      translate(${currentX}px, ${currentY}px)
+      rotateX(${currentRotateX}deg)
+      rotateY(${currentRotateY}deg)
+    `;
+
+    requestAnimationFrame(animate);
+  }
+
+  animate();
+});
+</script>
 </body>
