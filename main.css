@@ -1,21 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
 
 @media (max-width: 767px){
-	/* 모바일 */
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .title02 {
+        display: flex;
+        padding-left: 52px !important;
+        width: fit-content;
+        flex-direction: column;
+    }
+    
+    .weblink a {
+        padding: 20px 80px !important;
+    }
+
+    .weblink {
+        padding-top: 56px !important;
+    }
+
+    #main p {
+        margin-top: 20px !important;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    /* // 테블릿 세로 */
+
+      header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .title02 {
+        display: flex;
+        padding-left: 52px !important;
+        width: fit-content;
+        flex-direction: column;
+    }
+    
+    .weblink a {
+        padding: 20px 80px !important;
+    }
+
+    .weblink {
+        padding-top: 56px !important;
+    }
+
+    #main p {
+        margin-top: 20px !important;
+    }
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    /* // 테블릿 가로 */
-}
+    
+ 
 
-@media (min-width: 1200px) {
-    /* // 데스크탑 일반 */
 }
-
 
 * {
     margin: 0;
@@ -39,13 +85,13 @@ header {
 
 h1 {
     font-family: "Archivo", sans-serif;
-    font-size: 96px;
+    font-size: clamp(48px, 8vw, 96px);
     font-variation-settings: 'wght' 400, 'wdth' 1250;
 }
 
 h2 {
     font-family: "Archivo", sans-serif;
-    font-size: 64px;
+    font-size: clamp(48px, 8vw, 64px);
     font-variation-settings: 'wght' 400, 'wdth' 1250;
 }
 
@@ -66,15 +112,16 @@ h3 {
 .weblink a {
     font-family: "Archivo", sans-serif;
     font-variation-settings: 'wght' 400, 'wdth' 125;
-    font-size: 40px;
+    font-size: clamp(24px, 4vw, 40px);
     display: flex;
-    width: 613px;
+    width: fit-content;
     height:fit-content;
     background-color: black;
     text-decoration-line: none;
     color: white;
     justify-content: space-around;
-    padding: 8px 0px;
+    padding: 20px;
+    margin-bottom: 12px;
 }
 
 #title01 h2 {
@@ -123,7 +170,7 @@ h3 {
 #main p {
     font-family: "Archivo", sans-serif;
     font-variation-settings: 'wght' 400, 'wdth' 125;
-    font-size: 36px;
+    font-size: clamp(20px, 5vw, 36px);
 }
 
 #main a:hover {
